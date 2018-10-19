@@ -8,10 +8,10 @@
   -->
 
 {% block content %}
-<h1>What's on your mind?</h1>
+<h1>What's your new blog entry?</h1>
 <form action="/new_entry" method="post">
 
-        <label for="title_field">How would you summarize your idea?</label>
+        <label for="title_field">Title of your Blog?</label>
         <input id="title_field" name="title" type="text" value="{{ new_entry_title }}">
 
         <label for="body_field">Tell me more:</label>
